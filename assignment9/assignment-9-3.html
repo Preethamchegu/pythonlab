@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assignment9-3.css">
+</head>
+
+<body>
+    <div class="Amazon-website">
+        <nav class="first-navbar d-flex">
+            <img src="https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png-1.webp" class="amazon-logo-img" />
+            <div class="d-flex adress-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=#ffffff class="bi bi-geo-alt location-logo " viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+                <div>
+                    <span class="text-white deliver-text">Deliver to</span>
+                    <h1 class="town-pincode">Los angeles 901100</h1>
+                </div>
+            </div>
+            <button class="All-button-before-search">All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                </svg>
+            </button>
+            <input class="search-for-things">
+            <button class="search-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=#584936 class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </button>
+            <img class="country-flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=grey class="bi bi-caret-down-fill arrow-down" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+            <p class="signin-text-paragraph">Hello,Sign in <br /> <span class="signin-text-heading">Account & Lists</span></p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=grey class="bi bi-caret-down-fill arrow-down-signin" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+            <p class="signin-text-paragraph">Returns <br /> <span class="signin-text-heading">& Orders</span></p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=white class="bi bi-cart cart-icon" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+            </svg>
+            <span class="signin-text-heading mt-5">Cart</span>
+        </nav>
+        <nav class="second-navbar d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=white class="bi bi-list mt-1" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+            <li class="text-white all-text">All</li>
+            <li class="text-white ">Best sellers</li>
+            <li class="text-white ">Amazon-basis</li>
+            <li class="text-white ">New Realeases</li>
+            <li class="text-white ">Today Deals </li>
+            <li class="text-white ">Customer Service</li>
+            <li class="text-white ">Prime</li>
+            <li class="text-white ">Books</li>
+            <li class="text-white ">Registry</li>
+            <li class="text-white ">Gift cards</li>
+            <li class="text-white ">Toys & games</li>
+            <li class="text-white ">Fashion</li>
+            <li class="text-white ">Kindle Books</li>
+            <li class="text-white ">Amazon Home</li>
+            <h1 class="watch-the-wheel-of-time">watch the wheel of time</h1>
+        </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-image">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img25/Media/PC_Hero_3000x1200_Asin-toys-2x._CB547414496_.jpg" class="d-block carousel-image w-100 " alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="d-flex ">
+            <div class="card 1">
+                <h1 class="card-heading">Cozy winter style for her</h1>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://rukminim2.flixcart.com/image/850/1000/kt7jv680/jacket/m/3/4/4-5-years-no-ynkboysbomberjacket001-yoonikk-original-imag6hq5vsgcmazh.jpeg?q=90&crop=false" class="card-image" />
+                        <p class="pl-2">Coats and jackets</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0DVXYmE16FFiLQtlU7qtioicuHbkHTtpWkRPrppoAiw8O-doUbBobO3e_vy_eEEd0Rk0&usqp=CAU" class="card-image" />
+                        <p class="pl-2">Coats and jackets</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjKjn-GjFAcLEzxQgQpYbxiPvoapaw2mNsWLJXlf2Nh1eHyrJAnlduJU4lWI-CIRNUHuQ&usqp=CAU" class="card-image" />
+                        <p class="pl-2">Coats and jackets</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3SM2rZIrgSekb9OO8AozZW7G6wWBYeVoF9_52oKZe5U01MaRzFEY5cVFH-W45h7pUCXs&usqp=CAU" class="card-image" />
+                        <p class="pl-2">Coats and jackets</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card 2">
+                <h1 class="card-heading">Bring in fresh energy</h1>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2sm2uB0Z10d_5uXP926f5Tn82tSJ9pruO4AC57NrwsT2vh8gplZ9i-MH2VP2rI3RhwYw&usqp=CAU" class="card-image" />
+                        <p class="pl-2">Dumbels</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyAuyK3A0p_JQxOQvMcJkWhFuBubMAu73sb_x8nvHMnoY5YUy4ceW1T4QuZUGUNG_lVts&usqp=CAU" class="card-image" />
+                        <p class="pl-2">Yoga mat</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/413Q9W8ePRS._AC_UF1000,1000_QL80_.jpg" class="card-image dumbel-image" />
+                        <p class="pl-2">Health and personal care</p>
+                    </div>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/719H77P51DL.jpg" class="card-image outdoors-image" />
+                        <p class="pl-2">Outdoors</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card 3">
+                <h1 class="card-heading">Must see fashion deals</h1>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/23453332/2023/12/14/34a5c6f9-cae4-4b71-9c1a-b9e3389bcde61702555196569TedSmithLensRectangleSunglassesWithUVProtectedLens2.jpg" class="card-image" />
+                        <p class="pl-2">Goggles</p>
+                    </div>
+                    <div>
+                        <img src="https://di2ponv0v5otw.cloudfront.net/posts/2024/12/16/676112baa2c69ee883217c05/s_676112cddc8a4e64faf4435d.jpg" class="card-image" />
+                        <p class="pl-2">Clothing</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWK2C8F23mzD_oWKGR86boQyTTkArf_FKI2qqMNuVgo3XJwJUZhG7hSW5PVW_slm2PTo0&usqp=CAU" class="card-image" />
+                        <p class="pl-2">Hand bags</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9oKNA3SuhowUwkLXbm8OI9mer9-2VxufMZn2IiIFniJJ9nPaBABcDgZ7aAEqHAi11qWQ&usqp=CAU" class="card-image" />
+                        <p class="pl-2">shoes</p>
+                    </div>
+                </div>
+            </div>
+            <diV>
+                <div class=" card card-signin 4">
+                    <p class="card-heading">Sign in for best experience</p>
+                    <button class="sign-in-button">sign for securely</button>
+                </div>
+                <img class="gift-card" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG8t1wagP9iXlYoEfT1DU3utJufw4k2UMP_89oIapYiRzEpkcXSvL9p4y1l0bBgMFQlp8&usqp=CAU" />
+            </diV>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+<!---->

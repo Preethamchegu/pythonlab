@@ -1,0 +1,104 @@
+.first-page {
+    background-image: url("https://b.zmtcdn.com/data/pictures/chains/5/18808035/cd867dbcd742b6cf022939a4a455ba05.jpg");
+    background-size: cover;
+    padding-top: 12px;
+    padding-bottom: 200px;
+    margin-bottom: 24px;
+}
+.zomato-image {
+    width:30%;
+    margin:auto;
+    margin-bottom:8px
+}
+.first-block{
+    text-align:center;
+}
+.buttons-2 {
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.for-downloading-app {
+    font-size: 8px;
+    padding-left: 60px;
+}
+
+.get-app {
+    margin-top: 8px;
+}
+
+.get-app-icon {
+    font-size: 8px;
+}
+
+.login-signup {
+    color: Red;
+    background-color: #ffffff;
+    font-size: 10px;
+    font-family: "Roboto";
+    border-radius: 8px;
+    border-width: 0px;
+    padding:8px;
+    padding-right:16px;
+    padding-left:16px;
+    margin: 3px;
+}
+
+.zomato-text {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Sans";
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+    margin:auto;
+}
+
+.zomato-below-text {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    margin:auto;
+    margin-bottom:8px
+}
+
+.search-bar {
+    border-width: 0px;
+    padding: 4px;
+    width: 75%;
+    border-radius: 3px;
+    padding-right: 20px;
+    text-align: center;
+    margin-left: 80px;
+    background-image: url("searchicon.png");
+    margin:auto;
+    margin-bottom:8px
+
+}
+
+.card {
+    padding-top: 6px;
+    width:100%;
+    border-radius: 6px;
+    margin:16px;
+    padding-bottom:6px;
+    margin-bottom:44px;
+}
+
+.card-image {
+    width:100%;
+}
+
+.last-image {
+    height:90%;
+}
+
+
+
+.card-text {
+    text-align: center;
+    font-size: 12px;
+}

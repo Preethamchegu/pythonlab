@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.first-navbar {
+    background-color: #223040;
+    padding: 0px;
+}
+
+.amazon-logo-img {
+    background-color: transparent;
+    width: 12%;
+}
+
+.adress-block {
+    margin-top: 2%;
+}
+
+.location-logo {
+    margin-top: 28px;
+}
+
+.deliver-text {
+    font-size: 10px;
+}
+
+.town-pincode {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.All-button-before-search {
+    border-width: 0px;
+    margin-left: 8px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height:50px;
+}
+
+.search-for-things {
+    border-width: 0px;
+    margin-bottom: 24px;
+    margin-top:32px;
+    width: 40%;
+    margin-right: 0px;
+    height:50px;
+}
+
+.search-button {
+    background-color: #f3a847;
+    border-width: 0px;
+    margin-bottom: 24px;
+    margin-top:32px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height:50px;
+}
+
+.country-flag {
+    height: 2%;
+    width: 3%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.country-flag:hover {
+    cursor: pointer;
+}
+
+.arrow-down {
+    margin-top:52px;
+    margin-right: 1%;
+}
+
+.arrow-down:hover {
+    cursor: pointer;
+}
+
+.signin-text-paragraph {
+    color: #ffffff;
+    margin-top: 3%;
+    font-size: 12px;
+}
+
+.arrow-down-signin {
+    margin-top: 4%;
+    margin-right: 3%;
+}
+
+.signin-text-heading {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.cart-icon {
+    height: 28px;
+    width: 28px;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.second-navbar {
+    background-color: #232f3e;
+    margin-top: 0px;
+}
+
+li {
+    list-style: none;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.all-text {
+    font-weight: bold;
+}
+
+.watch-the-wheel-of-time {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.carousel-image {
+    width: 100%;
+}
+
+.card-heading {
+    color: #323f4b;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Roboto";
+}
+
+.card {
+    background-color: #ffffff;
+    width: 25%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.card-image {
+    width: 100px;
+    margin: 12px;
+}
+
+.sign-in-button {
+    background-color: #ffd814;
+    border-width: 0px;
+    border-radius: 4px;
+    font-family: "Roboto";
+    width: 100%;
+}
+
+.card-signin {
+    width: 100%;
+    margin-left: 0px;
+}
+.carousel-image{
+    height:60%;
+}
